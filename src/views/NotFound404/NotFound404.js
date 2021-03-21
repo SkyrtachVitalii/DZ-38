@@ -6,7 +6,7 @@ function NotFound404() {
   return (
     <div className="NotFound404">
         <h1>404</h1>
-        <p1>Сторінку не знайдено <Link to="/">Повернутися на головну</Link></p1>
+        <p>Сторінку не знайдено <Link to="/">Повернутися на головну</Link></p>
     </div>
   );
 }
