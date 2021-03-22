@@ -10,7 +10,6 @@ import Review from './views/Review/Review';
 import NotFound404 from './views/NotFound404/NotFound404';
 
 function App() {
-
   return (
     <Router>
       <div className="App">
@@ -29,17 +28,16 @@ function App() {
             <Route exact path="/cabinet">
               <Cabinet />
             </Route>
-            <Route exact path="/contacts">
+            <Route path="/contacts">
               <Contacts />
             </Route>
-            <Route path="./products/:productId/review/:reviewId">
+            <Route path="/products/:productId/review/:reviewId">
               <Review />
             </Route>
-            <Route exact path="*">
+            <Route path="*">
               <NotFound404 />
             </Route>
           </Switch>
-
         </div>
       </div>
     </Router>

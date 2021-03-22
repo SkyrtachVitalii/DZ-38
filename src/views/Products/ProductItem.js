@@ -7,6 +7,7 @@ function ProductItem(){
     return (
         <div className="ProductItem">
             Це сторінка продукту з {id}
+            
         </div>
     )
 }

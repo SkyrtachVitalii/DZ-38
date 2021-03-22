@@ -1,0 +1,19 @@
+.Requests{
+    width: 600px;
+    background: #08c;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    &Product{
+        background-color: #ccc;
+        border-right: 1px solid #333;
+        padding: 10px;
+        flex: 0 0 50%;
+    }
+    &Customer{
+        flex: 0 0 50%;
+        background-color: #ccc;
+        padding: 10px;
+    }
+}
